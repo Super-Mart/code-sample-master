@@ -16,8 +16,8 @@ A repository of code samples created for helping fellow students taking CIT 230 
 
 ![alt text][logo]
 
-[logo]: https://raw.githubusercontent.com/erikjmartinez/code-sample-master/master/Flexbox-Navbars/preview-2.PNG 'Example 1 Preview'
+[logo]: https://raw.githubusercontent.com/erikjmartinez/code-sample-master/master/Flexbox-Navbars/preview-2.PNG 'Example 2 Preview'
 
 ![alt text][logo]
 
-[logo]: https://raw.githubusercontent.com/erikjmartinez/code-sample-master/master/Flexbox-Navbars/preview-3.PNG 'Example 1 Preview'
+[logo]: https://raw.githubusercontent.com/erikjmartinez/code-sample-master/master/Flexbox-Navbars/preview-3.PNG 'Example 3 Preview'
