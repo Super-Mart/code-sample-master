@@ -4,7 +4,6 @@ A repository of code samples created for helping fellow students taking CIT 230 
 
 # Preview for Current-Date
 
-Reference-style:
 ![alt text][logo]
 
-[logo]: /images/preview.PNG 'Current Date'
+[logo]: https://raw.githubusercontent.com/erikjmartinez/code-sample-master/master/CurrentDate-JavaScript-Example/preview.PNG 'Current Date Preview'
