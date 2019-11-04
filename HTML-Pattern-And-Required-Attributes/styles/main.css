@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Arvo', serif;
+    background-color: ;
+    /*add color*/
+    color: white;
+}
+
+form {
+    text-align: center;
+}
+
+.title {
+    margin: 20px;
+    text-align: center;
+    color: black;
+}
+
+form fieldset {
+    border: 1px solid black;
+    border-radius: 10px;
+    max-width: 600px;
+}
+
+form legend {
+    color: black;
+}
+
+form label.top,
+form div {
+    display: block;
+    color: white;
+}
+
+form label.top input,
+form label.top select {
+    display: block;
+    font-size: 1rem;
+    border: solid 1px #999;
+    border-radius: 5px;
+    padding: .75rem;
+    color: black;
+    background-color: white;
+    width: 100%;
+    max-width: 20rem;
+    margin: auto;
+}
+
+form label.top input:required {
+    border-left: red solid 6px;
+}
+
+form label.top input:required:valid {
+    border-left: green solid 6px;
+}
+
+form input.submitBtn {
+    border: white solid 3px;
+    background-color: #2196f3;
+    color: white;
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    max-width: 30rem;
+    margin-top: 10px;
+}

@@ -1,2 +1,3 @@
 # code-samples-master
-A place for all my code samples that have and were created for helping fellow students. 
+
+A repository of code samples created for helping fellow students taking CIT 230 - Web Front-End Development at Brigham Young University - Idaho.
