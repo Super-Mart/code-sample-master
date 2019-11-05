@@ -21,3 +21,11 @@ A repository of code samples created for helping fellow students taking CIT 230 
 ## 4. Preview for HTML Pattern And Required Attributes
 
 ![alt text](https://raw.githubusercontent.com/erikjmartinez/code-sample-master/master/HTML-Pattern-And-Required-Attributes-Example/preview.PNG 'Header with Flexbox Preview')
+
+## 5. Preview for HTML Navbar with Hamburger Menu
+
+![alt text](https://raw.githubusercontent.com/erikjmartinez/code-sample-master/master/Navbar-Hamburger-Example/preview-1.PNG 'Navbar in full screen')
+
+![alt text](https://raw.githubusercontent.com/erikjmartinez/code-sample-master/master/Navbar-Hamburger-Example/preview-2.PNG 'Navbar tablet/mobile view')
+
+![alt text](https://raw.githubusercontent.com/erikjmartinez/code-sample-master/master/Navbar-Hamburger-Example/preview-3.PNG 'Navbar tablet/mobile view opened')
