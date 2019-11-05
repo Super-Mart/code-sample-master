@@ -30,4 +30,5 @@ A repository of code samples created for helping fellow students taking CIT 230 
 
 ![alt text](https://raw.githubusercontent.com/erikjmartinez/code-sample-master/master/Navbar-Hamburger-Example/preview-3.PNG 'Navbar tablet/mobile view opened')
 
-![](./Lazy-Loading-Example/ezgif.com-video-to-gif.gif =500)
+![](./Lazy-Loading-Example/ezgif.com-video-to-gif.gif)
+<img src="./Lazy-Loading-Example/ezgif.com-video-to-gif.gif">
