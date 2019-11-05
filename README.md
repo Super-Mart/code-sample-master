@@ -29,3 +29,5 @@ A repository of code samples created for helping fellow students taking CIT 230 
 ![alt text](https://raw.githubusercontent.com/erikjmartinez/code-sample-master/master/Navbar-Hamburger-Example/preview-2.PNG 'Navbar tablet/mobile view')
 
 ![alt text](https://raw.githubusercontent.com/erikjmartinez/code-sample-master/master/Navbar-Hamburger-Example/preview-3.PNG 'Navbar tablet/mobile view opened')
+
+![alt text](https://media.giphy.com/media/H7TIvEd8rCE2BVrlaV/giphy.gif 'Navbar tablet/mobile view opened')
