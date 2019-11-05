@@ -14,6 +14,10 @@ A repository of code samples created for helping fellow students taking CIT 230 
 
 ![alt text](https://raw.githubusercontent.com/erikjmartinez/code-sample-master/master/Flexbox-Navbars/preview-3.PNG 'Example 3 Preview')
 
-## 2. Preview for Header with Flexbox
+## 3. Preview for Header with Flexbox
 
 ![alt text](https://raw.githubusercontent.com/erikjmartinez/code-sample-master/master/Header-With-Flex-Example/preview.PNG 'Header with Flexbox Preview')
+
+## 4. Preview for HTML Pattern And Required Attributes
+
+![alt text](https://raw.githubusercontent.com/erikjmartinez/code-sample-master/master/HTML-Pattern-And-Required-Attributes-Example/preview.PNG 'Header with Flexbox Preview')
