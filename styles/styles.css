@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:400,600&display=swap');
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: 'Josefin Sans', sans-serif;
+  color: #2c3e50;
+}
+
+li,
+a {
+  font-weight: 600;
+  color: #2c3e50;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 30px 10%;
+}
+img {
+  width: 80px;
+}
+.logo {
+  cursor: pointer;
+  margin-right: auto;
+}
+.nav__links {
+  list-style: none;
+}
+.nav__links li {
+  display: inline-block;
+  padding: 0px 20px;
+  cursor: pointer;
+}
+.nav__links li a {
+  transition: all 0.3s ease 0s;
+}
+a:hover {
+  color: rgba(93, 95, 99, 0.8);
+  text-decoration: none;
+}
+/* button {
+  margin-left: 20px;
+  padding: 9px 25px;
+  background-color: rgba(24, 74, 137, 1);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+button:hover {
+  background-color: rgba(24, 74, 137, 0.8);
+} */
+
+/* Modifying Bootsrtap Styles */
+.navbar {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.jumbotron {
+  color: #2c3e50;
+}
+
+.card {
+  max-width: 20rem;
+  color: white;
+}
+.card-link {
+  color: white;
+  text-decoration: underline;
+}
+.card-link:hover {
+  color: white;
+  text-decoration: underline;
+}
