@@ -1,0 +1,117 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  height: 100%;
+  background-color: #fcfcfc;
+  color: Black;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: 'Pridi', serif;
+  padding: 30px 20px 20px;
+  background-color: #f3f1f1;
+}
+
+h1 {
+  font-size: 38px;
+  margin: 0 10px;
+}
+
+main {
+  margin-top: 20px;
+}
+
+main img {
+  width: 300px;
+  height: 300px;
+  padding: 4px;
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+@media only screen and (min-width: 1024px) {
+  section {
+    margin: 0 20px;
+  }
+}
+
+footer {
+  background-color: #f3f1f1;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.copyright {
+  margin: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  font-size: 18px;
+}
+/**************************
+                          *
+ Styles for Lazy Loading  *
+                          *
+ *************************/
+
+a.progressive {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  outline: none;
+}
+
+a.progressive:not(.replace) {
+  cursor: default;
+}
+
+a.progressive img {
+  width: 300px;
+  height: 300px;
+  padding: 4px;
+}
+
+a.progressive img.preview {
+  filter: blur(2vw);
+  transform: scale(1.05);
+}
+
+a.progressive img.reveal {
+  position: absolute;
+  left: 0;
+  top: 0;
+  will-change: transform, opacity;
+  animation: reveal 1s ease-out;
+}
+
+@keyframes reveal {
+  0% {
+    transform: scale(1.05);
+    opacity: 0;
+  }
+
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}

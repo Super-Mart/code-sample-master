@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Lazy Loading Example</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Erik Martinez">
+    <link rel="camera icon" href="images/photography-icon.png" />
+    <link href="https://fonts.googleapis.com/css?family=Pridi:400" rel="stylesheet" />
+    <link rel="stylesheet" href="styles/styles.css">
+
+</head>
+
+<body>
+    <header>
+        <h1 class="head">Lazy Loading Example</h1>
+    </header>
+    <main>
+        <section class="gallery">
+
+            <!-- TARGET IMAGE -->
+            <a href="images/airport.jpg" class=" progressive replace">
+                <!-- PLACEHOLDER WHILE TARGET IMAGE LOADS -->
+                <img src="images/small.jpg" class="preview" alt="Airport" />
+            </a>
+
+            <!-- TARGET IMAGE -->
+            <a href="images/stc.jpg" class=" progressive replace">
+                <!-- PLACEHOLDER WHILE TARGET IMAGE LOADS -->
+                <img src="images/small.jpg" class="preview" alt="progressive replace" />
+                <!-- PLACEHOLDER WHILE TARGET IMAGE LOADS -->
+            </a>
+
+            <!-- TARGET IMAGE -->
+            <a href="images/berto.jpg" class=" progressive replace">
+                <!-- PLACEHOLDER WHILE TARGET IMAGE LOADS -->
+                <img src="images/small.jpg" class="preview" alt="Airport" />
+            </a>
+
+            <!-- TARGET IMAGE -->
+            <a href="images/byu.jpg" class=" progressive replace">
+                <!-- PLACEHOLDER WHILE TARGET IMAGE LOADS -->
+                <img src="images/small.jpg" class="preview" alt="Airport" />
+            </a>
+
+            <!-- TARGET IMAGE -->
+            <a href="images/orem.jpg" class=" progressive replace">
+                <!-- PLACEHOLDER WHILE TARGET IMAGE LOADS -->
+                <img src="images/small.jpg" class="preview" alt="Airport" />
+            </a>
+
+            <!-- TARGET IMAGE -->
+            <a href="images/plane.jpg" class=" progressive replace">
+                <!-- PLACEHOLDER WHILE TARGET IMAGE LOADS -->
+                <img src="images/small.jpg" class="preview" alt="progressive replace" />
+            </a>
+
+            <!-- TARGET IMAGE -->
+            <a href="images/flower.jpg" class=" progressive replace">
+                <!-- PLACEHOLDER WHILE TARGET IMAGE LOADS -->
+                <img src="images/small.jpg" class="preview" alt="progressive replace" />
+            </a>
+
+            <!-- TARGET IMAGE -->
+            <a href="images/railroad.jpg" class=" progressive replace">
+                <!-- PLACEHOLDER WHILE TARGET IMAGE LOADS -->
+                <img src="images/small.jpg" class="preview" alt="progressive replace" />
+            </a>
+        </section>
+    </main>
+    <footer>
+        <div class="copyright">
+            <a href="https://github.com/erikjmartinez/code-sample-master">2019 Erik J. Martinez</a>
+        </div>
+    </footer>
+    <script src="js/lazyloading.js"></script>
+</body>
+
+</html>
