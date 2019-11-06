@@ -10,18 +10,21 @@
 
 html {
   font-family: 'Josefin Sans', sans-serif;
-  color: #2c3e50;
+  /* color: #2c3e50; */
+  color: #ffffff;
+  scroll-behavior: smooth;
 }
 
 li,
 a {
   font-weight: 600;
-  color: #2c3e50;
+  /* color: #2c3e50; */
+  color: #ffffff;
   font-size: 16px;
   text-decoration: none;
 }
 
-header {
+nav {
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -30,21 +33,34 @@ header {
 img {
   width: 80px;
 }
+
+strong > a {
+  color: #2c3e50;
+}
+
+p > img {
+  width: 50px;
+}
+
 .logo {
   cursor: pointer;
   margin-right: auto;
 }
+
 .nav__links {
   list-style: none;
 }
+
 .nav__links li {
   display: inline-block;
   padding: 0px 20px;
   cursor: pointer;
 }
+
 .nav__links li a {
   transition: all 0.3s ease 0s;
 }
+
 a:hover {
   color: rgba(93, 95, 99, 0.8);
   text-decoration: none;
@@ -65,11 +81,12 @@ button:hover {
 /* Modifying Bootsrtap Styles */
 .navbar {
   padding-top: 0;
-  padding-bottom: 0;
+  /* padding-bottom: 0; */
 }
 
 .jumbotron {
   color: #2c3e50;
+  background-color: #ffffff;
 }
 
 .card {
