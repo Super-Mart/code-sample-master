@@ -7,53 +7,109 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="author" content="Erik Martinez">
     <title>Code Samples - Home</title>
-    <link rel="stylesheet" href="styles/bootstrap.min.css">
-    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="assets/styles/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/styles/styles.css">
 </head>
 
 <body>
 
-    <header class="navbar navbar-expand-md navbar-light bg-light">
+    <header id="home" class="navbar navbar-expand-md navbar-light bg-light">
         <div class="container">
-            <a class="navbar-brand" href="#"><img class="logo" src="images/smile.svg" alt="My Custom Logo"> Code
+            <a class="navbar-brand" href="#home"><img class="logo" src="assets/images/smile.svg" alt="My Custom Logo">
+                Code
                 Master</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor03"
                 aria-controls="navbarColor03" aria-expanded="true" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-            <div class="navbar-collapse collapse show" id="navbarColor03">
+            <div class="navbar-collapse collapse" id="navbarColor03">
                 <ul class="navbar-nav nav__links ml-auto">
-                    <li class="nav-item"><a href="#">Home</a></li>
-                    <li class="nav-item"><a href="#">Code</a></li>
+                    <li class="nav-item"><a href="#home">Home</a></li>
+                    <li class="nav-item"><a href="#code">Code</a></li>
                     <li class="nav-item"><a href="#">Contact</a></li>
                 </ul>
             </div>
         </div>
     </header>
-    <main>
+    <main id="code">
         <div class="jumbotron jumbotron-fluid">
             <div class="container">
                 <h1 class="display-3">Welcome!</h1>
                 <p class="lead">Below you will find live examples of my code from <strong><a
                             href="https://github.com/erikjmartinez/code-sample-master">GitHub</a></strong><img
-                        src="images/Octocat.png" alt="Octocat"></p>
+                        src="assets/images/Octocat.png" alt="Octocat"></p>
                 <hr class="my-4">
                 <p>Feel free to use my code but remember that understanding the code is more <strong>important</strong>
                     then a good grade!</p>
             </div>
         </div>
-        <div class="container d-flex">
+        <div class="container d-flex justify-content-around flex-wrap">
             <div class="card text-white bg-primary mb-3">
-                <!-- <div class="card-header">Current Date</div> -->
                 <div class="card-body">
                     <h4 class="card-title">Current Date</h4>
-                    <p class="card-text">Example of how to get and display the current date using Javascript. <a
-                            class="card-link" href="./CurrentDate-JavaScript-Example/index.html" target="_blank"
-                            rel="noopener noreferrer">Let me see!</a></p>
+                    <p class="card-text">Example of how to get and display the current date using Javascript.</p>
+                    <a class="card-link" href="./CurrentDate-JavaScript-Example/index.html" target="_blank"
+                        rel="noopener noreferrer">Let me see!</a>
+                </div>
+            </div>
+
+            <div class="card text-white bg-primary mb-3">
+                <div class="card-body">
+                    <h4 class="card-title">Flexbox Navbars</h4>
+                    <p class="card-text">3 Examples of navigation bars using Flexbox. Pick your fl[ex]avor. &#128526;
+                    </p>
+                    <a class="card-link" href="./Flexbox-Navbars/Example-1/index.html" target="_blank"
+                        rel="noopener noreferrer">Example 1</a>
+
+                    <a class="card-link" href="./Flexbox-Navbars/Example-2/index.html" target="_blank"
+                        rel="noopener noreferrer">Example 2</a>
+
+                    <a class="card-link" href="./Flexbox-Navbars/Example-3/index.html" target="_blank"
+                        rel="noopener noreferrer">Example 3</a>
+                </div>
+            </div>
+
+            <div class="card text-white bg-primary mb-3">
+                <div class="card-body">
+                    <h4 class="card-title">Header with Flex</h4>
+                    <p class="card-text">A simple Header with Flexbox that utilizes Flexbox's column feature.</p>
+                    <a class="card-link" href="./Header-With-Flex-Example/flex_header.html" target="_blank"
+                        rel="noopener noreferrer">Let me see!</a>
+                </div>
+            </div>
+
+            <div class="card text-white bg-primary mb-3">
+                <div class="card-body">
+                    <h4 class="card-title">HTML's pattern and required attributes</h4>
+                    <p class="card-text">An example of using HTML's pattern and required attributes to validate input
+                        fileds in a form.</p>
+                    <a class="card-link" href="./HTML-Pattern-And-Required-Attributes-Example/index.html"
+                        target="_blank" rel="noopener noreferrer">Let me see!</a>
+                </div>
+            </div>
+
+            <div class="card text-white bg-primary mb-3">
+                <div class="card-body">
+                    <h4 class="card-title">Lazy Loading</h4>
+                    <p class="card-text">In this example of Lazy Loading, I have created a little gallery with images to
+                        show what lazy loading does and I got to say, it is pretty sweet!</p>
+                    <a class="card-link" href="./Lazy-Loading-Example/lazyloading.html" target="_blank"
+                        rel="noopener noreferrer">Let me see!</a>
+                </div>
+            </div>
+
+            <div class="card text-white bg-primary mb-3">
+                <div class="card-body">
+                    <h4 class="card-title">Navigation Bar with a &#x1F354;</h4>
+                    <p class="card-text">Here is an example of a navigation bar with a hamburger menu that replaces the
+                        links when a user's viewport matches the specified size in set media query</p>
+                    <a class="card-link" href="./Lazy-Loading-Example/lazyloading.html" target="_blank"
+                        rel="noopener noreferrer">Let me see!</a>
                 </div>
             </div>
         </div>
+
     </main>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
