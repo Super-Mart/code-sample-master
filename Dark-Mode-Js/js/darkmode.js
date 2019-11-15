@@ -13,7 +13,7 @@ const darkModeToggle = document.querySelector("#dark-mode-toggle");
 // false - turn it on
 
 const enableDarkMode = () => {
-  // add class darkmoe to body
+  // add class darkmode to body
   document.body.classList.add("darkmode");
 
   // update local storage
