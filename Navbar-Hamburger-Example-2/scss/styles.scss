@@ -77,18 +77,9 @@ nav {
     cursor: pointer;
 }
 
-.nav-active {
-    transform: translateX(0%);
-}
-
 @media screen and (max-width:768px) {
     body {
         overflow: hidden;
-    }
-
-    .nav-inactive {
-        transform: translateX(100%);
-
     }
 
     .nav-links {
@@ -101,7 +92,7 @@ nav {
         display: flex;
         flex-direction: column;
         align-items: center;
-        // transform: translateX(100%);
+        transform: translateX(100%);
         transition: transform 0.5s ease-in;
 
         li {
@@ -125,6 +116,10 @@ nav {
         transform: translateX(0px);
 
     }
+}
+
+.nav-active {
+    transform: translateX(0%);
 }
 
 .toggle .bar-1 {
